@@ -77,7 +77,6 @@ Here's everything you need to build your own BMO:
 |---|---|
 | ESP32 | The brain — handles WiFi, I2S, I2C, and UART all at once |
 | MAX98357 (I2S Amp) | Converts the digital audio stream to speaker output |
-| INMP441 (I2S Mic) | Microphone — wired in but used in the extended version |
 | SSD1306 OLED (I2C) | BMO's face screen — shows response text |
 | Small speaker | Makes BMO actually talk |
 | Cardboard + blue paint | The body, arms, legs, and soul |
@@ -104,14 +103,6 @@ Here's everything you need to build your own BMO:
 | GND | GND | Ground |
 | SDA | GPIO 8 | Serial data |
 | SCL | GPIO 9 | Serial clock |
-
-**INMP441 (Microphone)**
-
-| Pin | Connected To |
-|---|---|
-| WS | GPIO 15 |
-| SCK | GPIO 16 |
-| SD | GPIO 17 |
 
 ---
 
